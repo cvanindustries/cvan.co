@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cvan industries</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      html {
+        font-size: 13px;
+      }
+
+      body {
+        background: #111;
+        color: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      }
+
+      a {
+        color: #ddd;
+        text-decoration: none;
+      }
+      
+      a {
+        color: #fff;
+      }
+
+      a:hover {
+        transition: .15s background-color ease-in-out, .15s color ease-in-out, .15s opacity ease-in-out;
+      }
+
+      h1 a {
+        background: rgba(17,17,17,.05);
+        border-bottom: 1px dotted rgba(255,255,255,.075);
+        color: cyan;
+        display: block;
+        padding: 1.5rem;
+        opacity: .8;
+      }
+
+      h1 a:hover {
+        background: cyan;
+        color: #111;
+        opacity: 1;
+      }
+
+      h1 a:before {
+        content: "▒░\a0\a0";
+        filter: grayscale(1);
+        opacity: .5;
+      }
+      
+      h1 a:hover:before {
+        opacity: 1;
+      }
+
+      .main {
+        padding: 3em 2rem;
+      }
+
+      .main h2 {
+        color: rgba(255,255,255,.15);
+        font-family: Consolas, Andale Mono, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        padding: 1rem 0 1rem;
+      }
+
+      .main li a {
+        color: magenta;
+      }
+
+      [data-section~="mission"] p {
+        color: #ff0170;
+        font-size: 2rem;
+        line-height: 1.5;
+        max-width: 30rem;
+      }
+
+      .main h2 {
+        color: #666;
+        font-size: 1rem;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="wrap">
+        <h1><a href="/"><b>cvan</b> industries</a></h1>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <div class="wrap">
+        <section class="mission" data-section="mission">
+          <h2>Our mission</h2>
+          <p class="mission">
+            Helping independent folks who do social good <strong>get users and keep users</strong>.
+          </p>
+        </section>
+      </div>
+    </main>
+    <script>
+      (function () {
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-99082877-1', 'auto');
+        ga('send', 'pageview');
+      })();
+    </script>
+  </body>
+</html>
